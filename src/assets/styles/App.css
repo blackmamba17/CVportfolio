@@ -1,0 +1,143 @@
+.padding > *{
+    padding: 35px 15px 10px 15px;
+    text-align: justify;
+}
+
+.background{
+    background: linear-gradient(0deg, #9c27b0 0%, #bc48ff 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+       
+     
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+h1,h2, h3{
+    color: #9c27b0;
+    
+
+}
+
+h2{
+    padding-top: 30px;
+}
+
+.progressBar{
+
+    background-color: #bc48ff;
+    height: 10px;
+    width: 0px;
+    transition: width 0.5s;
+
+
+}
+
+
+
+@media (max-width: 750px){
+    #about img {
+           /*  display: none !important; */
+
+        }
+
+   
+
+    
+}
+
+
+
+@media (max-width: 800px){
+
+    
+
+    img{
+        transform: scale(0.8);
+        margin:    15px;
+    }
+
+    body  *{
+        text-align: justify;
+        
+
+    }
+
+    div{
+        padding: 10px
+    }
+
+    .proPic{
+        transform: scale(0.8);
+         animation: none;
+    }
+
+    .proPicBox{
+        display: none !important;
+        height: 100%;
+         
+    }
+
+    #about img{
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        transform: scale(1);
+    }
+
+    #home{
+        flex-wrap: wrap;
+    }
+
+        .padding>* {
+            padding: 0px;
+            text-align: justify;
+        }
+
+ .progressBar{
+    height: 1px;
+ }
+}
+
+@media (max-width: 1200px){
+    #about div {
+            flex-direction: column;
+        }
+
+
+    .motto{
+            width: 100%;
+    }
+
+    #home button,
+    #about button{
+        width: 100%;
+    }
+
+    #about img{
+        transform: scale(0.5);
+        margin: -100px;
+         
+    }
+
+
+
+    h1,h2,h3, div,p{
+        text-align: justify;
+    }
+    
+}

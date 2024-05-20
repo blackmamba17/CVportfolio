@@ -1,0 +1,11 @@
+.navbar:hover,
+
+.navbar.active{
+    color:#bc48ff;
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
+
+
+

@@ -1,0 +1,9 @@
+.icons > *{
+    transform: scale(2.5);
+    margin: 10%;
+}
+
+.toggle{
+    border: 10px solid red;
+    transform: scale(2.5);
+}
