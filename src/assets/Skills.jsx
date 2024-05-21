@@ -19,12 +19,12 @@ function Skills() {
                 <Box className="icons" sx={{ width: "50%", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                     <CssIcon />
                     <HtmlIcon />
-                    <img src="/node.svg" alt="" />
-                    <img src="/mongo.svg" alt="" />
-                    <img src="/react.svg" alt="" />
-                    <img src="/ubuntu.svg" alt="" />
-                    <img src="/sql.svg" alt="" />
-                    <img src="/rest.svg" alt="" />
+                    <img src="/CVportfolio/public/node.svg" alt="" />
+                    <img src="/CVportfolio/public/mongo.svg" alt="" />
+                    <img src="/CVportfolio/public/react.svg" alt="" />
+                    <img src="/CVportfolio/public/ubuntu.svg" alt="" />
+                    <img src="/CVportfolio/public/sql.svg" alt="" />
+                    <img src="/CVportfolio/public/rest.svg" alt="" />
                 </Box>
                 <Box sx={{ width: "50%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                     <h3>web development</h3>
