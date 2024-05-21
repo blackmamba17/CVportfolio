@@ -17,19 +17,19 @@ function Curriculum() {
         date: "2020 - 2022",
         description: "Helping the client to carry out the internet network, vpn configuration and general troubleshooting.",
         website: "https://www.sielte.it/index.php/it/",
-        logo: "./CVportfolio/public/sielte.jpg"
+        logo: "public/sielte.jpg"
     }, {
         business: "MOVIA SPA",
         date: "2023 - current",
         description: "vpn, hardware & software troubleshooting and installation, mongoDB admin, creating full responsive html template for the client, testing new staging updates, checking new GitHub commit and more",
         website: "https://movia.biz/",
-        logo: "./CVportfolio/public/movia.jpeg"
+        logo: "public/movia.jpeg"
     }, {
         business: "FREELANCER",
         date: "2023 - current",
         description: "release live server with the application that the customer required",
         website: "http://localhost:5173/",
-        logo: "./CVportfolio/public/job2.PNG"
+        logo: "public/job2.PNG"
     }]
 
     return (
