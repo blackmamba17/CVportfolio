@@ -6,6 +6,9 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
 import "../assets/styles/Curriculum.css";
+import Sielte from "/sielte.jpg";
+import Movia from "/movia.jpeg";
+import Job from "/job2.png";
 
 
 function Curriculum() {
@@ -17,19 +20,19 @@ function Curriculum() {
         date: "2020 - 2022",
         description: "Helping the client to carry out the internet network, vpn configuration and general troubleshooting.",
         website: "https://www.sielte.it/index.php/it/",
-        logo: "public/sielte.jpg"
+        logo: Sielte
     }, {
         business: "MOVIA SPA",
         date: "2023 - current",
         description: "vpn, hardware & software troubleshooting and installation, mongoDB admin, creating full responsive html template for the client, testing new staging updates, checking new GitHub commit and more",
         website: "https://movia.biz/",
-        logo: "public/movia.jpeg"
+        logo: Movia
     }, {
         business: "FREELANCER",
         date: "2023 - current",
         description: "release live server with the application that the customer required",
         website: "http://localhost:5173/",
-        logo: "public/job2.PNG"
+        logo: Job
     }]
 
     return (

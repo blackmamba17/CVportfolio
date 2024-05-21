@@ -3,6 +3,13 @@ import Box from "@mui/material/Box";
 import CssIcon from '@mui/icons-material/Css';
 import HtmlIcon from '@mui/icons-material/Html';
 import "../assets/styles/Skills.css"
+import Node from "/node.svg";
+import Mongo from "/mongo.svg";
+import ReactLogo from "/react.svg";
+import Ubuntu from "/ubuntu.svg";
+import Sql from "/sql.svg";
+import Rest from "/rest.svg";
+
 
 function Skills() {
 
@@ -19,12 +26,12 @@ function Skills() {
                 <Box className="icons" sx={{ width: "50%", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                     <CssIcon />
                     <HtmlIcon />
-                    <img src="node.svg" alt="" />
-                    <img src="mongo.svg" alt="" />
-                    <img src="react.svg" alt="" />
-                    <img src="ubuntu.svg" alt="" />
-                    <img src="sql.svg" alt="" />
-                    <img src="rest.svg" alt="" />
+                    <img src={Node} alt="" />
+                    <img src={Mongo} alt="" />
+                    <img src={ReactLogo} alt="" />
+                    <img src={Ubuntu} alt="" />
+                    <img src={Sql} alt="" />
+                    <img src={Rest} alt="" />
                 </Box>
                 <Box sx={{ width: "50%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                     <h3>web development</h3>
