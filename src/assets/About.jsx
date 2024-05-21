@@ -1,7 +1,5 @@
-import React from 'react'
+
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import "../assets/styles/About.css"
