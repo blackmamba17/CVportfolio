@@ -50,11 +50,27 @@ h2{
 
 @media (max-width: 750px){
     #about img {
-           /*  display: none !important; */
+            display: none !important;
 
         }
 
-   
+   .icons>* {
+       transform: scale(2.2);
+       
+   }
+
+   #skillsBox{
+    flex-wrap: wrap;
+   }
+
+   button{
+     
+    width: 100% !important;
+   }
+
+
+
+ 
 
     
 }
@@ -63,8 +79,7 @@ h2{
 
 @media (max-width: 800px){
 
-    
-
+  
     img{
         transform: scale(0.8);
         margin:    15px;
@@ -87,8 +102,7 @@ h2{
 
     .proPicBox{
         display: none !important;
-        height: 100%;
-         
+        
     }
 
     #about img{
@@ -109,7 +123,7 @@ h2{
         }
 
  .progressBar{
-    height: 1px;
+    height: 1%;
  }
 }
 
@@ -123,10 +137,13 @@ h2{
             width: 100%;
     }
 
-    #home button,
+    #home button{
+            width: 100%;
+        }
+
     #about button{
-        width: 100%;
-    }
+            width: 50%;
+        }
 
     #about img{
         transform: scale(0.5);

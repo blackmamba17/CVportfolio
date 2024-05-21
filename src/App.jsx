@@ -37,7 +37,7 @@ function App() {
 
     if (y == 0) { scroll = "0%" }
 
-    console.log("\n y position of bar: " + y + " total scrollable y area: " + totalY + " size of scrollbar: " + scrollBar + " scroll %: " + scroll);
+    // console.log("\n y position of bar: " + y + " total scrollable y area: " + totalY + " size of scrollbar: " + scrollBar + " scroll %: " + scroll);
     setScroll(scroll);
 
   }, [y]);
@@ -48,7 +48,7 @@ function App() {
 
 
 
-    <Box sx={{ width: { md: 900, lg: 1150 }, height: 3000, display: "flex", justifyContent: "center", flexDirection: "column" }} >
+    <Box id="page" sx={{ width: { md: 900, lg: 1150, xl: 1350 }, height: 3000, display: "flex", justifyContent: "center", flexDirection: "column" }} >
 
 
       <NavBar scroll={scroll}>

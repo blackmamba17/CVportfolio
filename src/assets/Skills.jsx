@@ -22,8 +22,8 @@ function Skills() {
             <Box sx={{ pb: 2 }}>
                 <h2>Skills & Technologies I know how to use</h2>
             </Box>
-            <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }} >
-                <Box className="icons" sx={{ width: "50%", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+            <Box id="skillsBox" sx={{ display: "flex", width: "100%", justifyContent: "center" }} >
+                <Box className="icons" sx={{ width: "100%", display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                     <CssIcon />
                     <HtmlIcon />
                     <img src={Node} alt="" />
@@ -33,7 +33,7 @@ function Skills() {
                     <img src={Sql} alt="" />
                     <img src={Rest} alt="" />
                 </Box>
-                <Box sx={{ width: "50%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                     <h3>web development</h3>
                     <p>Thanks to my solo studing and my actual work, I mastered most of the latest Technologies that are required to build a modern web app.</p>
                 </Box>

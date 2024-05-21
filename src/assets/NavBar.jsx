@@ -48,7 +48,7 @@ function NavBar(props) {
                     })
                 }
 
-                <IconButton
+                {/*               <IconButton
 
                     size="large"
                     edge="start"
@@ -57,7 +57,7 @@ function NavBar(props) {
                     sx={{ mr: 2, visibility: "hidden" }}
                 >
                     <MenuIcon />
-                </IconButton>
+                </IconButton> */}
 
             </Toolbar>
             <div className='progressBar' style={{ width: props.scroll }}>
