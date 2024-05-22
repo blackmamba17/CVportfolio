@@ -37,12 +37,12 @@ function NavBar(props) {
                     navbarItems.map((item, index) => {
                         //const link = "#" + item;
                         return (
-                            <Box key={index} sx={{ display: "flex", justifyContent: "space-around", width: "100%" }}>
-                                <Divider orientation="vertical" flexItem />
-                                <Link className='navbar' smooth={true} offset={-60} duration={500} spy={true} to={item} underline="hover" color="secondary" sx={{ p: 2 }}>
+                            <Box key={index} sx={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}>
+                                {/*  <Divider orientation="vertical" flexItem /> */}
+                                <Link className='navbar' smooth={true} offset={-60} duration={500} spy={true} to={item} underline="hover" color="secondary" >
                                     {item.toUpperCase()}
                                 </Link>
-                                {(index == navbarItems.length - 1) && <Divider orientation="vertical" flexItem />}
+                                {/* {(index == navbarItems.length - 1) && <Divider orientation="vertical" flexItem />} */}
                             </Box>
                         )
                     })

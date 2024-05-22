@@ -2,10 +2,26 @@
 
 .navbar.active{
     color:#bc48ff;
+    
     cursor: pointer;
     transform: scale(1.5);
 
 }
 
+.navbar{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+
+@media (max-width: 800px){
+        .navbar:hover,
+        .navbar.active {
+            color: #bc48ff;
+            cursor: pointer;
+            transform: scale(1.1);
+    
+        }
+
+}
 
 

@@ -79,7 +79,9 @@ h2{
 
 @media (max-width: 800px){
 
-  
+
+    
+
     img{
         transform: scale(0.8);
         margin:    15px;
@@ -92,8 +94,10 @@ h2{
     }
 
     div{
-        padding: 10px
+        padding: 0px;
     }
+
+
 
     .proPic{
         transform: scale(0.8);
@@ -122,9 +126,8 @@ h2{
             text-align: justify;
         }
 
- .progressBar{
-    height: 1%;
- }
+
+
 }
 
 @media (max-width: 1200px){
